@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,10 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="samplePolicies.json.txt">
+    <None Update="Infrastructure\Resources\samplePolicies.json.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="policy.json">
+    <None Update="Infrastructure\Resources\policy.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
